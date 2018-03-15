@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.btn{
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	padding: 10px 20px;
+	display: inline-block;
+	text-align: center;
+}
+
+.btn:hover{
+	background-color: #ccc;
+}
+
+.btn.btn-success{
+	color: green;
+}
+
+.btn.btn-info{
+	color: dodgerblue;
+}
+
+.btn.btn-warning{
+	color: orange;
+}
+
+.btn.btn-danger{
+	color: red;
+}
+
+.btn.btn-default{
+	color: black;
+}
